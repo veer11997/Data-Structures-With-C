@@ -10,7 +10,7 @@ struct Node{
 	int data;
 	struct Node *nextAddress;
 };
-// This Function Will Take The First Node Address And Accoring To That It will Print All The Values and Address From The LinkedList
+// This Function Will Take The First Node Address And According To That It will Print All The Values and Address From The LinkedList
 
 void printLinkedList(struct Node *head){
 	while(head!=NULL){
